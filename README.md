@@ -16,6 +16,7 @@ This project focuses on building a robust machine learning pipeline that:
 - Handled missing/null values
 - Fixed inconsistent formatting
 - Converted data types where necessary
+![Raw data](raw.png)
 
 ### 2. ⚙️ Data Preprocessing
 
@@ -23,9 +24,11 @@ This project focuses on building a robust machine learning pipeline that:
 - Feature scaling (MinMaxScaler / StandardScaler)
 - Feature selection (optional)
 - Train-test split (e.g. 80-20)
+![preprocess](feul.png)
+![preprocess_location](location.png)
 
 ---
-
+![preprocess](worht.png)
 ## 🤖 Models Used
 
 The following machine learning models were applied and evaluated:
@@ -45,7 +48,7 @@ The following machine learning models were applied and evaluated:
 ## ✅ Best Performing Model: Random Forest
 
 Random Forest achieved the best results in terms of:
-
+![best model](rf.png)
 - Accuracy
 - F1 Score
 - Generalization to test data
